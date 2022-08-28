@@ -75,7 +75,7 @@ Create a AWS Elastic LB who is listening on TCP 80 and perform health check to v
 Create a security group for ELB, which allows incoming HTTP session to ASW ELB and health check to back-end web servers;
 Create a security group on for back-end web server, which allows management SSH connection SSH (TCP22) and ELB health check;
 
-```hcl
+```bash
 
 provider "aws" {
 region = "ap-southeast-2"
@@ -208,4 +208,4 @@ value = ["${data.aws_availability_zones.allzones.names}"]
 output "elb-dns" {
 value = "${aws_elb.elb1.dns_name}"
 }
-```hcl
+```bash
