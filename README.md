@@ -1,2 +1,5 @@
 # terraform-autoscaling
-autoscaling and ELB
+
+Autoscaling and ELB
+
+- https://www.youtube.com/watch?v=qePhmKyZfcM
