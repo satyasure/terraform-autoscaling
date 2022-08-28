@@ -44,6 +44,8 @@ Routes and load balances at the application layer (HTTP/HTTPS), and supports pat
 
 An Application Load Balancer can route requests to ports on one or more registered targets, such as EC2 instances, in your virtual private cloud (VPC).
 
+![Application Load Balancer](./images/ALB-Component_Architecture.png)
+
 ### Network Load Balancer
 
 Routes and load balances at the transport layer (TCP/UDP Layer-4), based on address information extracted from the Layer-4 header. 
